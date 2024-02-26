@@ -1,0 +1,11 @@
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .horizontal-item {
+    flex: 0 0 33%;
+    max-width: 33%;
+    box-sizing: border-box;
+    padding: 10px; /* Ajusta el padding según tus necesidades */
+  }

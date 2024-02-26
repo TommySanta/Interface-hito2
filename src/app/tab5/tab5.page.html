@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Express.js</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- Sección de imagen y descripción -->
+  <div class="image-section">
+    <img src="../../assets/img/express.png" alt="Express.js" class="express-js-image">
+    <div class="text">
+      <p>Express.js, o simplemente Express, es un framework de aplicaciones web para Node.js, diseñado para construir aplicaciones web y APIs. Fue desarrollado por TJ Holowaychuk y lanzado en noviembre de 2010. Express se destaca por su rendimiento, flexibilidad y minimalismo. Proporciona un conjunto robusto de características para desarrollar aplicaciones web y móviles. Su arquitectura permite a los desarrolladores construir servidores web rápidos y escalables. Express simplifica el manejo de rutas, peticiones HTTP, y la integración con bases de datos, convirtiéndolo en una pieza fundamental del ecosistema Node.js.</p>
+    </div>
+  </div>
+
+  <!-- Sección de Características -->
+  <div class="row">
+    <div class="column">
+      <div class="album-background">
+        <img src="../../assets/img/node.jpg" alt="Middleware">
+      </div>
+    </div>
+    <div class="column">
+      <div class="album-info">
+        <h2>Middleware</h2>
+        <p>El middleware de Express.js es una función que tiene acceso al objeto de solicitud (req), al objeto de respuesta (res), y a la siguiente función de middleware en el ciclo de solicitud-respuesta de la aplicación. Esto permite ejecutar código, hacer cambios en los objetos de solicitud y respuesta, terminar el ciclo de solicitud-respuesta, o llamar a la siguiente función de middleware.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="album-background">
+        <img src="../../assets/img/node.jpg" alt="Routing">
+      </div>
+    </div>
+    <div class="column">
+      <div class="album-info">
+        <h2>Routing</h2>
+        <p>El enrutamiento en Express.js se refiere a la definición de puntos finales de aplicación (URIs) y cómo responden a las solicitudes del cliente. Un enrutador de Express es como una tabla de contenido que dirige a los usuarios a la correcta dirección URL o URI basada en su solicitud.</p>
+      </div>
+    </div>
+  </div>
+</ion-content>
+
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.express-js-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.album-background {
+  text-align: center;
+}
+
+.album-background img {
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+  text-align: right;
+  float: right;
+  margin-right: 150px;
+}
+
+.album-info {
+  margin-right: 560px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+</style>
